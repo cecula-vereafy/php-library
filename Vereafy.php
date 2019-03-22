@@ -15,6 +15,7 @@ class Vereafy
 {
     private $_host = 'https://api.cecula.com';
 
+    // The API KEY Generated at the Cecula Developer Platform
     private $_apiKey = null;
 
     // Replace the <api key> string with API Key generated on the cecula developer platform.
