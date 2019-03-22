@@ -17,6 +17,16 @@ The Vereafy PHP Library Project was created to enable PHP Developers integrate s
 To use the Vereafy PHP library, you just need to clone this repo into your existing project directory and require the Vereafy class file (Vereafy.php)
 ----------
 
+### How to Get API Key
+
+Your API Key is first generated when you register an app. To register an app,
+Login to the Developers Dashboard, Navigate to Apps > Add, Type the name of your app and click **Submit**. The app will be registered and a new API Key will be generated. Copy the API key into your project
+
+### or
+
+click [developer.cecula.com](https://developer.cecula.com/docs/introduction/generating-api-key) to get started
+-----------
+
 ## Initialization
 
  The Vereafy 2FA initialization can be as simple as the following lines of code:
