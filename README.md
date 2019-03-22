@@ -15,7 +15,6 @@ Vereafy is an SMS based 2-factor authentication services that uses machine learn
 The Vereafy PHP Library Project was created to enable PHP Developers integrate seamlessly with the Vereafy API.
 
 To use the Vereafy PHP library, you just need to clone this repo into your existing project directory and require the Vereafy class file (Vereafy.php)
-----------
 
 ### How to Get API Key
 
@@ -24,8 +23,8 @@ Login to the Developers Dashboard, Navigate to Apps > Add, Type the name of your
 
 ### or
 
-click [developer.cecula.com](https://developer.cecula.com/docs/introduction/generating-api-key) to get started
------------
+Click [developer.cecula.com](https://developer.cecula.com/docs/introduction/generating-api-key) to get started
+
 
 ## Initialization
 
