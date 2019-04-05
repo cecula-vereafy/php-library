@@ -3,6 +3,7 @@
 	"description": "A PHP Library for Integrating with Vereafy Two-Factor Authentication (2FA) Service",
 	"version": "1.0.0",
 	"type": "Library",
+	"minimum-stability": "dev",
 	"homepage": "https://www.cecula.com/vereafy",
 	"keywords": ["Vereafy", "Cecula", "Vereafy PHP", "Cecula PHP", "2FA", "TFA", "Two-Factor", "Authentication", "2-factor authentication", "two-factor authentication"],
 	"authors": [{
