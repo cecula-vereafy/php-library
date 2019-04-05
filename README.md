@@ -19,11 +19,11 @@ To use the Vereafy PHP library, you just need to clone this repo into your exist
 ### How to Get API Key
 
 Your API Key is first generated when you register an app. To register an app,
-Login to the Developers Dashboard, Navigate to Apps > Add, Type the name of your app and click **Submit**. The app will be registered and a new API Key will be generated. Copy the API key into your project
+Login to the Developers Dashboard, Navigate to Apps > Add, Type the name of your app and click **Submit**. The app will be registered and a new API Key will be generated. Copy the API key into your project.
 
 ### or
 
-Click [developer.cecula.com](https://developer.cecula.com/docs/introduction/generating-api-key) to get started
+Click [developer.cecula.com](https://developer.cecula.com/docs/introduction/generating-api-key) to get started.
 
 
 ## Initialization
