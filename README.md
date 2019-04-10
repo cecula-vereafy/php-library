@@ -1,14 +1,17 @@
 # Vereafy PHP Library
 
-- Introduction
-- Initialization
-- Completion
-- Resend
-- Get Balance
-- Error Responses
+- [Vereafy PHP Library](#vereafy-php-library)
+  - [Introduction](#introduction)
+  - [How to Get API Key](#how-to-get-api-key)
+  - [Initialization](#initialization)
+  - [Completion](#completion)
+  - [Resend](#resend)
+  - [Get Balance](#get-balance)
+  - [Error Responses](#error-responses)
+
 ----------
 
-## Introduction:
+## Introduction
 
 Vereafy is an SMS based 2-factor authentication services that uses machine learning to understand the causes of OTP delivery failures and resolves them instantly to ensure your login and sign up OTPs deliver.
 
@@ -16,12 +19,12 @@ The Vereafy PHP Library Project was created to enable PHP Developers integrate s
 
 To use the Vereafy PHP library, you just need to clone this repo into your existing project directory and require the Vereafy class file (Vereafy.php)
 
-### How to Get API Key
+## How to Get API Key
 
 Your API Key is first generated when you register an app. To register an app,
 Login to the Developers Dashboard, Navigate to Apps > Add, Type the name of your app and click **Submit**. The app will be registered and a new API Key will be generated. Copy the API key into your project.
 
-### or
+OR
 
 Click [developer.cecula.com](https://developer.cecula.com/docs/introduction/generating-api-key) to get started.
 
