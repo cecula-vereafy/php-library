@@ -2,6 +2,10 @@
 
 - [Vereafy PHP Library](#vereafy-php-library)
   - [Introduction](#introduction)
+  - [Installation](#installation)
+    - [Installing with Composer](#installing-with-composer)
+    - [Installing from GitHub](#installing-from-github)
+  - [Including Library in Project](#including-library-in-project)
   - [How to Get API Key](#how-to-get-api-key)
   - [Initialization](#initialization)
   - [Completion](#completion)
@@ -15,14 +19,31 @@
 
 Vereafy is an SMS based 2-factor authentication services that uses machine learning to understand the causes of OTP delivery failures and resolves them instantly to ensure your login and sign up OTPs deliver.
 
+## Installation
+
 The Vereafy PHP Library Project was created to enable PHP Developers integrate seamlessly with the Vereafy API.
 
-To use the Vereafy PHP library, you just need to clone this repo into your existing project directory and require the Vereafy class file (Vereafy.php)
+To use the Vereafy PHP library, you just need to clone this repo into your existing project directory and require the Vereafy class file (Vereafy.php) or install with composer.
+
+#### Installing with Composer
+    composer require cecula/vereafy
+
+#### Installing from GitHub
+    git clone https://github.com/cecula-vereafy/php-library vereafy
+
+##Including Library in Project
+If you installed the Vereafy Library using composer, use the following line to include project:
+
+    require_once "/path/to/vendor/autoload.php";
+
+otherwise, if you cloned the GitHub repo you can simply require the project from the directory you save it to
+
+    require_once "/path/to/vereafy/Vereafy.php"
 
 ## How to Get API Key
 
 Your API Key is first generated when you register an app. To register an app,
-Login to the Developers Dashboard, Navigate to Apps > Add, Type the name of your app and click **Submit**. The app will be registered and a new API Key will be generated. Copy the API key into your project.
+Login to the Developers Dashboard, Navigate to **Apps > Add**, Type the name of your app and click **Submit**. The app will be registered and a new API Key will be generated. Copy the API key into your project.
 
 OR
 
